@@ -1,2 +1,2 @@
-# webdio.me
-Repositório de estudos da Plataforma DIO
+# Repositório de estudos da Plataforma DIO
+webdio.me
