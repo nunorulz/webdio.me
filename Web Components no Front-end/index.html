@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/card.css">
+  <script src="src/Components/__tituloDinamico.js" defer></script>
+  <script src="src/Components/__cardNews.js" defer></script>
+  <title>Portal de Notícias galáctica</title>
+</head>
+<body>
+  <div class="container">
+    <!-- <div class="card">
+        <div class="card__left">
+          <span>by Bruno Rocha</span>
+          <a href="#">Darth Vader contrata Devs</a>
+          <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes</p>
+        </div>
+        <div class="card__right">
+          <img src="assets/imagemPerfil_02.jpg" alt="" srcset="">
+        </div>
+      </div> -->
+    <card-news
+        autor="Bruno"
+        title="Darth Vader contrata"
+        photo="assets/imagemPerfil_02.jpg"
+        link-url="www.google.com"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+        >
+    </card-news>
+  </div>
+  <!-- <titulo-dinamico titulo="Notícia Urgente"></titulo-dinamico>  -->
+</body>
+</html>
